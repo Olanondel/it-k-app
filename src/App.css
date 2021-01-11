@@ -1,0 +1,42 @@
+body {
+  background: #fff
+    url('https://lh3.googleusercontent.com/proxy/qGCyiwl4cK_lIjdfH_25ZA5Zffj_UMH3QXZ3r_OUuSMm_bMJQ8kGUoOtNL5gYMdgcQIs21Xlgpk3YDe5iUwvn2vP9nvIfVVgXMoxStKqbbxc8D9C8patT59XRUGkl5F6obow8Q');
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.app-wrapper {
+  display: grid;
+
+  grid-template-areas:
+    'header header'
+    'nav main';
+  grid-template-columns: 2fr 10fr;
+}
+
+header {
+  grid-area: header;
+}
+
+header img {
+  width: 160px;
+  height: auto;
+}
+
+nav {
+  grid-area: nav;
+  padding: 20px;
+}
+
+main {
+  grid-area: main;
+  padding: 20px;
+}
+
+main img {
+  height: 300px;
+  width: 100%;
+}
