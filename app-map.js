@@ -9,7 +9,7 @@ npm start
 
 ***3 gitk --all& - открыть интерфейс git { Ctrl + insert to copy }
 
-
+*** 4 -> name.module.css - для создания уникальных класов { import Name from ./name.module.css }
 
 
 

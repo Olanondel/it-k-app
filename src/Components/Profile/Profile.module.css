@@ -1,0 +1,13 @@
+.profile {
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.banner {
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 25px;
+}

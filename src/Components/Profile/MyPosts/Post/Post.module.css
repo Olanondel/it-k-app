@@ -1,0 +1,32 @@
+.item {
+  color: gold;
+  margin: 65px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 100px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.item:hover {
+  background-color: rgb(182, 121, 41);
+  border-style: dashed;
+  border-width: 2px;
+  padding: 99px;
+}
+
+.item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  display: inline-block;
+}
+
+.item p {
+  text-align: center;
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline;
+}

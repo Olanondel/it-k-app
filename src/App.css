@@ -1,11 +1,18 @@
 body {
-  background: #fff
-    url('https://lh3.googleusercontent.com/proxy/qGCyiwl4cK_lIjdfH_25ZA5Zffj_UMH3QXZ3r_OUuSMm_bMJQ8kGUoOtNL5gYMdgcQIs21Xlgpk3YDe5iUwvn2vP9nvIfVVgXMoxStKqbbxc8D9C8patT59XRUGkl5F6obow8Q');
+  background: #000 url('https://bitmap.ru/uploads/gallery/luckystone/09_ls.jpg');
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: rgb(149, 110, 59);
+  padding: 5px 40px;
+  height: auto;
 }
 
 .app-wrapper {
@@ -17,26 +24,8 @@ a {
   grid-template-columns: 2fr 10fr;
 }
 
-header {
-  grid-area: header;
-}
-
-header img {
-  width: 160px;
-  height: auto;
-}
-
-nav {
-  grid-area: nav;
-  padding: 20px;
-}
-
 main {
   grid-area: main;
   padding: 20px;
-}
-
-main img {
-  height: 300px;
-  width: 100%;
+  border-right: 1px solid black;
 }

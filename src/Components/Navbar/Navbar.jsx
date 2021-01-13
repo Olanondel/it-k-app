@@ -1,3 +1,5 @@
+import NavbarCss from './Navbar.module.css'
+
 function Navbar() {
   return (
     <nav>
@@ -14,7 +16,9 @@ function Navbar() {
         <a href="#">Music</a>
       </div>
       <div>
-        <a href="#">Settings</a>
+        <a href="#" className={NavbarCss.settings}>
+          Settings
+        </a>
       </div>
     </nav>
   )

@@ -1,0 +1,29 @@
+nav {
+  grid-area: nav;
+  padding: 20px;
+  padding-top: 50px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+nav a {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 4px 0;
+  display: inline-block;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: rgb(182, 121, 41);
+}
+
+.settings {
+  padding-top: 30px;
+  border-bottom: 1px solid #000;
+}
+
+.settings:hover {
+  text-decoration: none;
+}
