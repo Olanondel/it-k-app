@@ -8,6 +8,7 @@ function Post(props) {
         alt=""
       />
       <p>{props.message}</p>
+      <p className={PostCss.likes}>Likes: {props.like}</p>
     </div>
   )
 }

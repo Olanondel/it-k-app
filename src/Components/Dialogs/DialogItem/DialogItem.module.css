@@ -1,0 +1,16 @@
+.dialog {
+    cursor: pointer;
+    display: block;
+}
+
+.active {
+    color: gold;
+}
+
+.dialog:hover {
+    color: gold;
+}
+
+.dialog {
+    padding: 10px 0;
+}

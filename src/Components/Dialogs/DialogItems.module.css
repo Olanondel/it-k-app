@@ -1,0 +1,23 @@
+.dialogs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialogs_items {
+    border-right: 1px solid black;
+    width: 30%;
+}
+
+.messages .message {
+    padding: 10px 0;
+}
+
+.messages {
+    width: 70%;
+}
+
+.dialogs_items, .messages {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}

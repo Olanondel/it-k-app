@@ -1,19 +1,18 @@
 .item {
   color: gold;
-  margin: 65px;
+  margin: 20px;
+  padding: 15px;
   display: inline-block;
   cursor: pointer;
   border: 1px solid black;
-  padding: 100px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   text-align: center;
 }
 
 .item:hover {
   background-color: rgb(182, 121, 41);
-  border-style: dashed;
-  border-width: 2px;
-  padding: 99px;
 }
 
 .item img {
@@ -29,4 +28,7 @@
   color: orange;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.likes {
 }
